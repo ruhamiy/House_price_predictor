@@ -11,9 +11,9 @@ st.write("This app uses machine learining for predicting house prices with given
 
 st.divider()
 living_area = st.number_input("Living Area (in sqft)", min_value=0,value=2000)
-grade_of_the_house = st.number_input("Grade of the House", min_value=0,value=3)
-Area_of_the_house = st.number_input("Area of the House (in sqft)", min_value=0,value=2000)
-living_area_renov = st.number_input("Living Area (in sqft) - Renovated", min_value=0,value=0)
+grade_of_the_house = st.number_input("Grade of the House", min_value=0,value=4)
+Area_of_the_house = st.number_input("Area of the House (in sqft)", min_value=0,value=300)
+living_area_renov = st.number_input("Living Area (in sqft) - Renovated", min_value=0,value=400)
 bathrooms = st.number_input("Number of Bathrooms", min_value=0,value=0)
 
 st.divider()
